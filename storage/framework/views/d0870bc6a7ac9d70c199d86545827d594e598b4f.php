@@ -1,13 +1,12 @@
-@extends('layouts.web')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
 <!-- Main start -->
 <main class="main--wrapper">
     <!-- Hero -->
     <!-- Page Title -->
-    {{-- <div class="page-title-area page-title-padding pos-relative gray-bg fix"
-        data-background="/images/img/page-title-bg.jpg" data-overlay="theme" data-opacity="7"> --}}
+    
     <div class="page-title-area page-title-padding pos-relative gray-bg fix"
         style="background-color: black !important;">
         <div class="container">
@@ -41,16 +40,13 @@
                 <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
                     src="/images/img/engineer.jpg" alt="Features Image">
                 <div class="feature__img--caption text-center aos-init aos-animate " data-aos="fade-left">
-                    {{-- <div class="feature__img--caption--shadow js-tilt">
-                        <span class="fw-700 theme-color">35<sup>+</sup></span>
-                        <p class="fw-700 theme-color">Years</p>
-                    </div> --}}
+                    
                 </div>
             </div>
         </div>
         <div class="col-lg-6 mb-30">
             <div class="feature__content">
-                {{-- <span class="fw-700 text-uppercase"><span></span>Engineering program </span> --}}
+                
                 <h2 class="theme-color fw-700 mb-30">Engineering program </h2>
                     <p>The Engineering program is designed to train individuals on how to install Solar – Inverter and other aspects of renewable energy.</p>
                     <p>Its our vision to also set them up for profitability in business. </p>
@@ -60,68 +56,19 @@
                     <div class="contacts__social">
                         <ul>
                             <li><a href="https://www.facebook.com/reohob.pv.engineering.training"><i class="fab fa-facebook-f"></i></a></li>
-                            {{-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> --}}
+                            
                             <li><a href="https://instagram.com/reohob.pv.engineering.training?igshid=19l8661rre1uw"><i class="fab fa-instagram"></i></a></li>
-                            {{-- <li><a href="#"><i class="fab fa-google"></i></a></li> --}}
+                            
                         </ul>
                     </div>
 
-                {{-- <div class="feature__list d-flex">
-                    <div class="feature__list--icon">
-                        <i class="fal fa-check"></i>
-                    </div>
-                    <div class="feature__list--content">
-                        <h5 class="fw-700 mb-10">Become a trained and Certified Installed with Reohob Engineering Training Programme. Our Packages are The GOLD Package and The BASIC package</h5>
+                
 
-                        <br>
-                    </div>
-                </div> --}}
-
-                {{-- <div class="feature__list--button">
-                    <a href="#" class="btn btn--blue  white-color aos-init aos-animate "
-                        data-aos="fade-up">Get started</a>
-                </div> --}}
+                
             </div>
         </div>
     </div>
-    {{-- <div class="row justify-content-between pt-100">
-        <div class="col-lg-2 col-md-6 mb-30">
-            <div class="statistics__block statistics__block--h2">
-                <span class="fw-600 theme-color">
-                    <i class="fal fa-dharmachakra theme-color d-block"></i>
-                </span>
-                <p><span class="counter">7895</span> <sup><i class="fal fa-plus"></i></sup></p>
-                <h5 class="mb-10 primary-color">Project Complate</h5>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-6 mb-30">
-            <div class="statistics__block statistics__block--h2">
-                <span class="fw-600 theme-color">
-                    <i class="fal fa-crown theme-color d-block"></i>
-                </span>
-                <p><span class="counter">895</span> <sup><i class="fal fa-plus"></i></sup></p>
-                <h5 class="mb-10 primary-color">Winning Awards</h5>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-6 mb-30">
-            <div class="statistics__block statistics__block--h2">
-                <span class="fw-600 theme-color">
-                    <i class="fal fa-heart theme-color d-block"></i>
-                </span>
-                <p><span class="counter">9862</span> <sup><i class="fal fa-plus"></i></sup></p>
-                <h5 class="mb-10 primary-color">Satisfied Clients</h5>
-            </div>
-        </div>
-        <div class="col-lg-2 col-md-6 mb-30">
-            <div class="statistics__block statistics__block--h2">
-                <span class="fw-600 theme-color">
-                    <i class="fal fa-head-side-headphones theme-color d-block"></i>
-                </span>
-                <p><span class="counter">523</span> <sup><i class="fal fa-plus"></i></sup></p>
-                <h5 class="mb-10 primary-color">Expert Consulatant</h5>
-            </div>
-        </div>
-    </div> --}}
+    
 </div>
 </section>
 <!-- Feature End -->
@@ -135,9 +82,7 @@
     <div class="row">
         <div class="col-xl-4 offset-xl-1 col-lg-12 mb-30">
             <div class="feature__content--ex feature__content--ex-2 theme">
-                {{-- <span
-                    class="theme__small--title theme__small--title-left fw-700 text-uppercase"><span></span>what
-                    we do</span> --}}
+                
                 <h2 class="theme-color fw-700 mb-30">Training Course Outline</h2>
                 <div class="row">
                     <div class="feature__list d-flex col-xl-12 col-lg-4 col-md-6" style="margin-bottom: 20px;">
@@ -146,8 +91,7 @@
                         </div>
                         <div class="feature__list--content">
                             <h5 class="fw-700 mb-10">Introduction to Renewable Energy.</h5>
-                            {{-- <p>Sedut perspiciatis unde omnis iste natus error sitlup accusant doloremque
-                                laudantium totam remap eriaeaque ipsa</p> --}}
+                            
                         </div>
                     </div>
                     <div class="feature__list d-flex col-xl-12 col-lg-4 col-md-6" style="margin-bottom: 20px;">
@@ -195,7 +139,6 @@
 <!-- Company History End -->
 
 <!-- contact-form-area start -->
-<section > </section>
 <section class="contact-form-area">
 <div class="container">
     <div class="form-wrapper grey-bg">
@@ -207,11 +150,11 @@
                 </div>
             </div>
         </div>
-        {{-- <form action="/training" method="POST" name="training-form" id="training-form"> --}}
+        
 
         <form action="/payment/verification" method="POST" name="training-form" id="training-form">
 
-            @csrf
+            <?php echo csrf_field(); ?>
 
             <div class="loader" style="display: none;">Loading...</div>
 
@@ -259,7 +202,7 @@
                         <span class="label-text">Basic engineering knowledge? </span> 
                         <span class="contact-error"></span>
                     </label>
-                    {{-- <input type="tel" name="phone" placeholder="Phone Number" class="c-form-name form-control" id="form-phone" required> --}}
+                    
 
                     <select name="enginer_know_how" class="c-form-name form-control" id="form-engine" required>
                         <option selected>-- Select --</option>
@@ -369,10 +312,10 @@
 </main>
 <!-- Main start end /-->
 
-@endsection
+<?php $__env->stopSection(); ?>
 
 
-@section('script')
+<?php $__env->startSection('script'); ?>
 <script src="https://js.paystack.co/v1/inline.js"></script> 
 
 <script>
@@ -472,5 +415,6 @@ function payWithPaystack(e) {
     });
 
 </script>
-@endsection
+<?php $__env->stopSection(); ?>
             
+<?php echo $__env->make('layouts.web', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/temitope/Documents/GitHub/reohob/resources/views/web/training.blade.php ENDPATH**/ ?>

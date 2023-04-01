@@ -64,23 +64,29 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center w-100"> 
+                <h2 class="text-center theme__big--title fw-700 mb-80">Management and Board of Advisory</h2>
+            </div>
 
-            <div class=" offset-xl-1  offset-lg-1 row">
+            <div class="mx-auto row">
                 
-                <h2 class="text-center ">Management and Board of Advisory</h2>
                 
-                <div class="col-md-3 col-sm-6 m-2">
+                <div class="col-lg-3 col-12 col-md-6">
                     
-                    <img src="/images/img/boards/Screen.png" alt="">
+                <img src="/images/img/mockup.png" alt="">
+
                 </div> 
-                 <div class="col-md-3 col-sm-6 m-2">
-                    <img src="/images/boards/board2.jpg">
+                 <div class="col-lg-3 col-12 col-md-6">
+                 <img src="/images/img/mockup.png" alt="">
+
                 </div> 
-                 <div class="col-md-3 col-sm-6 m-2">
-                    <img src="/images/boards/board3.jpg">
+                 <div class="col-lg-3 col-12 col-md-6">
+                 <img src="/images/img/mockup.png" alt="">
+
                 </div> 
-                 <div class="col-md-3 col-sm-6 m-2">
-                    <img src="/images/boards/board4.jpg">
+                 <div class="col-lg-3 col-12 col-md-6">
+                 <img src="/images/img/mockup.png" alt="">
+
                 </div> 
             </div>
             </div>
