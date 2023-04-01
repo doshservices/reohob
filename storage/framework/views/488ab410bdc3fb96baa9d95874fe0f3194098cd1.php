@@ -71,19 +71,19 @@
                 
                 <div class="col-lg-3 col-12 col-md-6">
                     
-                <img src="/images/img/mockup.png" alt="">
+                <img src="/images/boards/board1.jpeg" alt="">
 
                 </div> 
                  <div class="col-lg-3 col-12 col-md-6">
-                 <img src="/images/img/mockup.png" alt="">
+                        <img src="/images/boards/board2.jpeg" alt="">
 
                 </div> 
                  <div class="col-lg-3 col-12 col-md-6">
-                 <img src="/images/img/mockup.png" alt="">
+                        <img src="/images/boards/board3.jpeg" alt="">
 
                 </div> 
                  <div class="col-lg-3 col-12 col-md-6">
-                 <img src="/images/img/mockup.png" alt="">
+                        <img src="/images/boards/board4.jpeg" alt="">
 
                 </div> 
             </div>

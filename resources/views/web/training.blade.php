@@ -195,8 +195,73 @@
 <!-- Company History End -->
 
 <!-- contact-form-area start -->
-<section > </section>
-<section class="contact-form-area">
+<section class="contact-form-area my-4">
+    <div class="container">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">SN</th>
+                <th scope="col">PRODUCT AND SERVICE</th>
+                <th scope="col">GOLD</th>
+                <th scope="col">BASIC</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Introduction to Renewable Energy</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Basic electricity Training and Solar Training Manual</td>
+                <td>YES</td>
+                <td>YES</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>The Business of Renewable Energy Class</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+
+            <tr>
+                <th scope="row">4</th>
+                <td>1 Year Engineering Support and Field Training</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+
+            <tr>
+                <th scope="row">5</th>
+                <td>1 Year Company Dealership Discount</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>1 Year Company Dealership Discount</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Certificate of attendance</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Installation Engineering Equipment’s</td>
+                <td>YES</td>
+                <td>NO</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<section class="contact-form-area my-5">
 <div class="container">
     <div class="form-wrapper grey-bg">
         <div class="row align-items-center">
