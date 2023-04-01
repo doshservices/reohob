@@ -119,9 +119,9 @@
                                     consultation</span>
                                 <h2 class="theme__big--title fw-700 mb-35">Need consultation installing solar inverter system? </h2>
                                 <div class="consult-button ">
-                                    <a href="/contact"
+                                    <a href="/contact-reohob"
                                         class="btn btn--blue  white-color aos-init aos-animate"
-                                        data-aos="fade-up">Get started</a>
+                                        >Get started</a>
                                 </div>
                             </div>
                         </div>

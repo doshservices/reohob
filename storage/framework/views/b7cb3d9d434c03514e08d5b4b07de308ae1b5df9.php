@@ -1,13 +1,12 @@
-@extends('layouts.web')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
 <!-- Main start -->
 <main class="main--wrapper">
 
     <!-- Page Title -->
-    {{-- <div class="page-title-area page-title-padding pos-relative gray-bg fix"
-        data-background="/images/img/page-title-bg.jpg" data-overlay="theme" data-opacity="7"> --}}
+    
     <div class="page-title-area page-title-padding pos-relative gray-bg fix"
         style="background-color: black !important;">
         <div class="container">
@@ -109,7 +108,7 @@
                     </div>
                 </div>
                 <form role="form" action="/contact" method="post" id="contact">
-                    @csrf
+                    <?php echo csrf_field(); ?>
                     <div class="form-group" style="display: none;">
                          <label for="faxonly">Fax Only
                           <input type="checkbox" name="faxonly" id="faxonly" />
@@ -184,9 +183,9 @@
 </main>
 <!-- Main start end /-->
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('script')
+<?php $__env->startSection('script'); ?>
 <script>
 
     var form = document.getElementById('contact');
@@ -199,4 +198,5 @@
     , false);
 
 </script>
-@endsection            
+<?php $__env->stopSection(); ?>            
+<?php echo $__env->make('layouts.web', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/temitope/Documents/GitHub/reohob/resources/views/web/contact.blade.php ENDPATH**/ ?>
