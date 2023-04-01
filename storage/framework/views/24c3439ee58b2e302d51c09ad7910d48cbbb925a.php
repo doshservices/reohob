@@ -1,14 +1,13 @@
-@extends('layouts.web')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
 
 <!-- Main start -->
 <main class="main--wrapper">
 
     <!-- Page Title -->
-    {{-- <div class="page-title-area page-title-padding pos-relative gray-bg fix"
-        data-background="/images/img/page-title-bg.jpg" data-overlay="theme" data-opacity="7"> --}}
+    
         <div class="page-title-area page-title-padding pos-relative gray-bg fix" style="background-color: black !important;">
         <div class="container">
             <div class="row align-items-center">
@@ -88,10 +87,11 @@
 <!-- Main start end /-->
 
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('script')
+<?php $__env->startSection('script'); ?>
 <script>
 
 </script>
-@endsection            
+<?php $__env->stopSection(); ?>            
+<?php echo $__env->make('layouts.web', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/temitope/Documents/GitHub/reohob/resources/views/web/payment-plan.blade.php ENDPATH**/ ?>

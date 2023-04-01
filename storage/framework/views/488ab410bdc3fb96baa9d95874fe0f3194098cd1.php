@@ -1,13 +1,13 @@
-@extends('layouts.web')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
 
 <!-- Main start -->
 <main class="main--wrapper">
 
     <!-- Page Title -->
-    {{-- <div class="page-title-area page-title-padding pos-relative gray-bg fix" data-background="/images/img/page-title-bg.jpg" data-overlay="theme" data-opacity="7"> --}}
+    
         <div class="page-title-area page-title-padding pos-relative gray-bg fix"  style="background-color: black !important;">
 
         <div class="container">
@@ -50,9 +50,7 @@
                 <div class="col-lg-7 mb-30">
                     <div class="about-img position-relative">
                         <img src="/images/img/mockup.png" alt="">
-                        {{-- <div class="about-img--2 d-none d-md-block">
-                            <img src="/images/img/about-img-ex2.jpg" alt="">
-                        </div> --}}
+                        
                     </div>
                 </div>
                 <div class="row">
@@ -67,7 +65,7 @@
 
             <div class=" offset-xl-1  offset-lg-1 row">
                 
-                <h2 class="text-center ">Management and Board of Advisory</h2>
+                <h2 class="text-center">Management and Board of Advisory</h2>
                 
                 <div class="col-md-3 col-sm-6 m-2">
                     
@@ -92,10 +90,11 @@
 <!-- Main start end /-->
 
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('script')
+<?php $__env->startSection('script'); ?>
 <script>
 
 </script>
-@endsection            
+<?php $__env->stopSection(); ?>            
+<?php echo $__env->make('layouts.web', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/temitope/Documents/GitHub/reohob/resources/views/web/about.blade.php ENDPATH**/ ?>
