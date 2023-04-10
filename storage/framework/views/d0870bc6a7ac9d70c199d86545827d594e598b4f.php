@@ -184,12 +184,6 @@
                 <td>NO</td>
             </tr>
             <tr>
-                <th scope="row">5</th>
-                <td>1 Year Company Dealership Discount</td>
-                <td>YES</td>
-                <td>NO</td>
-            </tr>
-            <tr>
                 <th scope="row">6</th>
                 <td>Certificate of attendance</td>
                 <td>YES</td>

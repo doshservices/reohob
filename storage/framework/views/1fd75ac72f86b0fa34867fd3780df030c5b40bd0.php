@@ -1,6 +1,6 @@
-@extends('layouts.web')
 
-@section('content')
+
+<?php $__env->startSection('content'); ?>
 
 <!-- Main start -->
 <main class="main--wrapper">
@@ -8,7 +8,7 @@
     <section class="hero position-relative">
         <div class="hero--active">
             <div class="hero-single banner" data-background="/images/hero/bat.jpg" >
-                {{-- <div class="hero__padding hero__padding--h3" style="background: rgba(0, 0, 0, .7);"> --}}
+                
                 <div class="hero__padding hero__padding--h3">
                   <div class="container">
                     <div class="row">
@@ -49,10 +49,7 @@
                 <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
                      src="/images/img/bat3.jpg" alt="Features Image">
                 <div class="feature__img--caption text-center aos-init aos-animate " data-aos="fade-left">
-                    {{-- <div class="feature__img--caption--shadow js-tilt">
-                        <span class="fw-700 theme-color">35<sup>+</sup></span>
-                        <p class="fw-700 theme-color">Years</p>
-                    </div> --}}
+                    
                 </div>
             </div>
         </div>
@@ -90,10 +87,7 @@
                     </div>
                 </div>
 
-                {{-- <div class="feature__list--button">
-                    <a href="#" class="btn btn--blue  white-color aos-init aos-animate "
-                        data-aos="fade-up">Get started</a>
-                </div> --}}
+                
             </div>
         </div>
     </div>
@@ -143,9 +137,9 @@
 </main>
 <!-- Main start end /-->
 
-@endsection
+<?php $__env->stopSection(); ?>
 
-@section('script')
+<?php $__env->startSection('script'); ?>
 <script>
 
     $(document).ready(function(){
@@ -202,4 +196,5 @@
     });
 
 </script>
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layouts.web', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH /Users/temitope/Documents/GitHub/reohob/resources/views/web/batteries.blade.php ENDPATH**/ ?>

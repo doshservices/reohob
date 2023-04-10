@@ -60,7 +60,7 @@
                     <div class="theme text-center">
                         <span class="theme__small--title fw-700 text-uppercase"><span></span>Company
                             Motivation<span></span></span>
-                        <h2 class="theme__big--title fw-700 mb-80">We are in the business if creating comfort through supply of Uninterrupted power, using renewable energy.</h2>
+                        <h2 class="theme__big--title fw-700 mb-80">We are in the business of creating comfort through supply of Uninterrupted power, using renewable energy.</h2>
                     </div>
                 </div>
             </div>
@@ -73,13 +73,13 @@
                 
                 <div class="col-lg-3 col-12 col-md-6">
                     
-                <img src="/images/boards/board1.jpeg" alt="">
+                <img src="/images/boards/board1.jpg" alt="">
 
                 </div> 
                  <div class="col-lg-3 col-12 col-md-6">
                         <img src="/images/boards/board2.jpeg" alt="">
 
-                </div> 
+                </div>
                  <div class="col-lg-3 col-12 col-md-6">
                         <img src="/images/boards/board3.jpeg" alt="">
 
