@@ -8,7 +8,7 @@
     <!-- Hero -->
     <section class="hero position-relative">
         <div class="hero--active">
-            <div class="hero-single banner" data-background="/images/hero/inverter.jpg">
+            <div class="hero-single banner banner-bg-sm" data-background="/images/img/bat3.jpg">
                 {{-- <div class="hero__padding hero__padding--h3" style="background: rgba(0, 0, 0, .7);"> --}}
                 <div class="hero__padding hero__padding--h3">
                   <div class="container">

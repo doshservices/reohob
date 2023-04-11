@@ -43,7 +43,7 @@
                         src="/images/shape/feature-dot-shape.png" alt="">
                 </div>
                 <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                    src="/images/img/small-bat.jpg" alt="Features Image">
+                    src="/images/img/bat2.jpg" alt="Features Image">
                 <div class="feature__img--caption text-center aos-init aos-animate " data-aos="fade-left">
                     
                 </div>

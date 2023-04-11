@@ -25,16 +25,12 @@
     outline: 0; background: #fff; border: 3px solid #e8643e;
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
-.banner {
+/images/img/bat2.jpg {
     background-position: center;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: 50%;
     height: 100vh;
-    
-}
-.banner-bg-sm{
-    background-size: 30%!important;
 }
 .fixed-footer {
   display: flex;

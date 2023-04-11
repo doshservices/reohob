@@ -7,7 +7,7 @@
     <!-- Hero -->
     <section class="hero position-relative">
         <div class="hero--active">
-            <div class="hero-single banner" data-background="/images/hero/bat.jpg" >
+            <div class="hero-single banner" data-background="/images/img/bat2.jpg" >
                 {{-- <div class="hero__padding hero__padding--h3" style="background: rgba(0, 0, 0, .7);"> --}}
                 <div class="hero__padding hero__padding--h3">
                   <div class="container">
@@ -43,11 +43,8 @@
                         src="/images/shape/feature-dot-shape.png" alt="">
                 </div>
                 <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                    src="/images/img/small-bat.jpg" alt="Features Image">
-                <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                     src="/images/img/bat2.jpg" alt="Features Image">
-                <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                     src="/images/img/bat3.jpg" alt="Features Image">
+                    src="/images/img/bat2.jpg" alt="Features Image">
+              
                 <div class="feature__img--caption text-center aos-init aos-animate " data-aos="fade-left">
                     {{-- <div class="feature__img--caption--shadow js-tilt">
                         <span class="fw-700 theme-color">35<sup>+</sup></span>
@@ -94,23 +91,6 @@
                     <a href="#" class="btn btn--blue  white-color aos-init aos-animate "
                         data-aos="fade-up">Get started</a>
                 </div> --}}
-            </div>
-
-            <div class="col-lg-6 position-relative mb-30">
-                <div class="feature__img position-relative">
-                    <div class="feature__img--dot-shape">
-                        <img class="aos-init aos-animate " data-aos="fade-down"
-                             src="/images/shape/feature-dot-shape.png" alt="">
-                    </div>
-                    <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                         src="/images/img/bat3.jpg" alt="Features Image">
-                    <div class="feature__img--caption text-center aos-init aos-animate " data-aos="fade-left">
-                        {{-- <div class="feature__img--caption--shadow js-tilt">
-                            <span class="fw-700 theme-color">35<sup>+</sup></span>
-                            <p class="fw-700 theme-color">Years</p>
-                        </div> --}}
-                    </div>
-                </div>
             </div>
         </div>
     </div>

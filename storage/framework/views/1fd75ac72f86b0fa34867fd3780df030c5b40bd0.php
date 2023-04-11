@@ -7,7 +7,7 @@
     <!-- Hero -->
     <section class="hero position-relative">
         <div class="hero--active">
-            <div class="hero-single banner" data-background="/images/hero/bat.jpg" >
+            <div class="hero-single banner" data-background="/images/img/bat2.jpg" >
                 
                 <div class="hero__padding hero__padding--h3">
                   <div class="container">
@@ -43,11 +43,8 @@
                         src="/images/shape/feature-dot-shape.png" alt="">
                 </div>
                 <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                    src="/images/img/small-bat.jpg" alt="Features Image">
-                <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                     src="/images/img/bat2.jpg" alt="Features Image">
-                <img class="feature-img js-tilt aos-init aos-animate " data-aos="fade-right"
-                     src="/images/img/bat3.jpg" alt="Features Image">
+                    src="/images/img/bat2.jpg" alt="Features Image">
+              
                 <div class="feature__img--caption text-center aos-init aos-animate " data-aos="fade-left">
                     
                 </div>
