@@ -26,15 +26,17 @@
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 .banner {
-    background-position: center;
+    background-position:center;
     max-width: 100%;
     background-repeat: no-repeat;
-    background-size: 50%;
+
     height: 100vh;
-    
+
 }
 .banner-bg-sm{
     background-size: 30%!important;
+    background-size: 50%;
+    background-position: center!important;
 }
 .fixed-footer {
   display: flex;

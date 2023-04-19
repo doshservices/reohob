@@ -67,7 +67,7 @@
             <!-- Hero -->
             <section class="hero position-relative">
                 <div class="hero--active">
-                    <div class="hero-single banner" data-background="/images/img/bat2.jpg ">
+                    <div class="hero-single banner " data-background="/images/img/bat2.jpg ">
                       <div class="hero__padding hero__padding--h3">
                           <div class="container">
                             <div class="row">
